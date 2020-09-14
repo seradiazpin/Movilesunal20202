@@ -7,7 +7,10 @@ class TicTacToeGame {
 
     private val mBoard = charArrayOf('1', '2', '3', '4', '5', '6', '7', '8', '9')
     public val BOARD_SIZE = 9
-
+    public var androidWins = 0
+    public var humanWins = 0
+    public var humanStart = false
+    public var ties = 0
     val HUMAN_PLAYER = 'X'
     val COMPUTER_PLAYER = 'O'
     val OPEN_SPOT = ' '
@@ -23,6 +26,15 @@ class TicTacToeGame {
         println()
     }
 
+    public fun humanWin(){
+        this.humanWins++;
+    }
+    public fun androidWin(){
+        this.androidWins++;
+    }
+    public fun ties(){
+        this.ties++;
+    }
     // Check for a winner.  Return
     //  0 if no winner or tie yet
     //  1 if it's a tie

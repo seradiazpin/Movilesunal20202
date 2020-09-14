@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun startNewGame(){
         mGame.clearBoard()
+
         for (i in mBoardButtons.indices) {
             mBoardButtons[i]!!.text = ""
             mBoardButtons[i]!!.isEnabled = true
@@ -56,13 +57,31 @@ class MainActivity : AppCompatActivity() {
                         winner = mGame.checkForWinner()
                     }
                     if (winner == 0) mInfoTextView?.text = "It's your turn."
-                    else if (winner == 1) mInfoTextView?.text ="It's a tie!"
-                    else if (winner == 2) mInfoTextView?.text = "You won!"
-                    else mInfoTextView?.text ="Android won!"
+                    else if (winner == 1){
+                        mInfoTextView?.text ="It's a tie!"
+                        mGame.ties()
+                        findViewById<TextView>(R.id.ties_score).text = "Ties: " + mGame.ties.toString()
+                    }
+                    else if (winner == 2) {
+                        mInfoTextView?.text = "You won!"
+                        mGame.humanWin()
+                        findViewById<TextView>(R.id.human_score).text = "Human: " +mGame.humanWins.toString()
+                    }
+                    else {mInfoTextView?.text ="Android won!"
+                        mGame.androidWin()
+                        findViewById<TextView>(R.id.android_score).text = "Android: " +mGame.androidWins.toString()
+                    }
                 }
             }
         }
-        mInfoTextView?.text = "You go first."
+        if(!mGame.humanStart){
+            mInfoTextView?.text = "It's Android's turn."
+            val move: Int = mGame.getComputerMove()
+            setMove(mGame.COMPUTER_PLAYER, move)
+            mInfoTextView?.text = "It's your turn."
+        }else{
+            mInfoTextView?.text = "You go first."
+        }
     }
     private fun setMove(player: Char, location: Int) {
         mGame.setMove(player, location)
@@ -80,6 +99,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        mGame.humanStart = !mGame.humanStart
         startNewGame()
         return true
     }
