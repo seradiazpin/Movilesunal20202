@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Tic-Tac-Toe 2</string>
+    <string name="title">TIC TAC TOE Sergio Diaz</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_harder">Hard</string>
+    <string name="difficulty_expert">Expert</string>
+    <string name="quit_question">Are you sure you want to quit?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+</resources>
