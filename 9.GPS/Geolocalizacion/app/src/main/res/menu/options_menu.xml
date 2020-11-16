@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/radius"
-        android:title="Setting Radius"/>
-
+    <item
+        android:id="@+id/radius"
+        android:title="Setting Radius" />
+    <item
+        android:id="@+id/normal_map"
+        android:title="@string/normal_map" />
+    <item
+        android:id="@+id/hybrid_map"
+        android:title="@string/hybrid_map" />
+    <item
+        android:id="@+id/satellite_map"
+        android:title="@string/satellite_map" />
+    <item
+        android:id="@+id/terrain_map"
+        android:title="@string/terrain_map"></item>
+    <item
+        android:id="@+id/zoom_level"
+        android:title="@string/zoom_level">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/zoom_world"
+                    android:title="World" />
+                <item
+                    android:id="@+id/zoom_continent"
+                    android:title="Continent" />
+                <item
+                    android:id="@+id/zoom_city"
+                    android:title="City" />
+                <item
+                    android:id="@+id/zoom_street"
+                    android:title="Street" />
+                <item
+                    android:id="@+id/zoom_building"
+                    android:title="Building" />
+            </group>
+        </menu>
+    </item>
 </menu>

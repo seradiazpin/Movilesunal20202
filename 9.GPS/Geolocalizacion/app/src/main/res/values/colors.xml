@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="colorAccent">#FFEB3B</color>
+
+
+    <color name="circleBorder">#B7EA4B4B</color>
+    <color name="circleFill">#B7AAC8F4</color>
+
+
+    <color name="hospital">#0206FF</color>
+    <color name="restaurant">#FF9800</color>
+    <color name="museum">#26D108</color>
 </resources>

@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Geolocalizacion</string>
     <string name="title_activity_maps">Map</string>
+    <string name="normal_map">Normal map</string>
+    <string name="hybrid_map">Hybrid map</string>
+    <string name="terrain_map">Terrain map</string>
+    <string name="satellite_map">Satellite map</string>
+    <string name="zoom_level">Zoom level</string>
 </resources>
