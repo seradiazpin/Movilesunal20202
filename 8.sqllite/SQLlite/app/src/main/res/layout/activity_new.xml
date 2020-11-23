@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/edit_text_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Url " />
+
+
+    <EditText
+        android:id="@+id/edit_text_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edit_text_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_text_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Productos y servicios" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_classification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Clasificacion" />
+
+        <CheckBox
+            android:id="@+id/checkbox_consultoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="Consultoria" />
+
+        <CheckBox
+            android:id="@+id/checkbox_desarollo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="Desarollo a la medida" />
+
+        <CheckBox
+            android:id="@+id/checkbox_fabricacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="Fabricacion de software" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_add_update_enterprise"
+        android:layout_gravity="center"
+        android:text="Agregar"
+        android:layout_height="44dp"
+        android:layout_width="match_parent" />
+
+</LinearLayout>

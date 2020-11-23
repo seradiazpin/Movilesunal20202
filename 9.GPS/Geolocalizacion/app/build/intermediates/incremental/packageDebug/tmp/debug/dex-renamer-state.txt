@@ -1,4 +1,4 @@
-#Tue Nov 26 07:58:50 COT 2019
-base.0=/home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/build/intermediates/transforms/dexMerger/debug/0
+#Mon Nov 16 13:07:19 COT 2020
+base.0=C\:\\Users\\TAURET\\AndroidStudioProjects\\Movilesunal20202\\9.GPS\\Geolocalizacion\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

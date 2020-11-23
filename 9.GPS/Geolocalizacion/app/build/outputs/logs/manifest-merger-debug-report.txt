@@ -1,247 +1,259 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:2:1-48:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/58d3f07d510b0f953f026ca5739dff12/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:17:1-32:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/sebastian/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a38ba1decce92db02c0f2a5e8b915aec/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.volley:volley:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/ae27d66f53bcd4897b7ca27cc338d1b2/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2826a825e041d5928a131432cd837fc2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c7803f78085d96e3401548ede691ae45/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e3b8c235c39be94f26867b445bc6029a/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f10020b0b079e3f2e394210aa0368fba/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ac06a5abc3d823737bcff0f651b82f9d/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e5de3ef9e17985c83c42c4b766450383/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bb95a147455cd81eb4ad1dbcacdc16e1/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fa38307598e1bf8398c60259a8292144/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/8ee41c285ead5980a711e49e90d0262f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/162e9c091c244cd7e84785278ca3476f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e37cbbe314329bcc61e9e43dec661433/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/355f45542e28b0fee858b23bd1b9d396/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d41bbbcafee00aa4a1874a2f0b34219c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e2d00f11eed81d220b80c2b5a5fdff77/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/94f08576fc769f91e1f45b7cedee2da6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/77b255264467c2139d95df1c27d70031/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/55cdebb6021d55135ae201b39c583f47/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f3c97311ad4a7e40a16f0fffd1a8a0c6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7e04277e8a85a14b7112e0cf46fdf5fc/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/db40742ca432dc82bb0e3e9d7b2bb480/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d284a725b3ca9784b15b18ce4e518488/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7c4a59a335bb5fedb3b21b4765cad145/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/fc445df49f593d60b94667cd1cab45fe/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fc134c4a4f2e216a3f44051f3cdd248b/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3f0a080b526af53101ea2ca03837a8dc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e5610a6be9677adb19200b9e6fa89705/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/eafd188b18871a0b3d40089f48f066fe/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3e3a861323f22673a8f0c49ccb986dbd/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ced1a0eff46193051e7236cb9dfdd309/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d8124d5a41eef7df6b7b94feaff9ae9c/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:2:1-48:12
+ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:2:1-48:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\cb875857604a721d0c4967af92283b3b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\437f6f7b3a7bb29130329966d5d81da5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\669df88c75f85f3bc5749f9d6aeb086b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\80248a3ecfbd28f860c2fccacebf57fc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\f585f9713f127312fba52c48ca3848aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1e39e971e550d82fbc7ce06fc988f116\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\ba9d80d1265ae16a494dea2074e975f3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\1b3c715663ef55ebf4e59232d43617ac\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\5d965587ed33e1cb3d91f08451eab7a1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\531fe5ef2c55162699474f19d62fafd3\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\368ff6482c23557102269a2f490b5eab\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\390fc063bd6591f93eabfa3e1de29774\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\78b6b8460f21c624eaf1476e3a8f8c00\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d28bb7e099c6976311c60afe975fcb19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\732b98beb8c80f6df6bdfe50c68d5be0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\af628d2ebd9c3d596772179240461071\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\d617d6fbaa0256a65faf2380e1fbe324\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\cdbd162c70207103744b4d1eafde99b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\b49f753f59389d5137c63dfd774198f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ca122f0f856fabe4e2d081173db3a146\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\12665575a63bc6f0e6cce397a4fae6e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\63552112cabfecf7d6bbc4e0ff4c41d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\24029aa4168a2e17aefd60629f12a33d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\db5d652e336acddcc518cdff49529c5b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\34961fc0a9a709d3ffe54e3feab5f6b2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\87c7a322752feb03c04570b4a7011ee8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\92907b3fb05bdb860bc5edc3fd280195\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\7664577441850bc600494b6e38660eee\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f5947a7d3589bd92136506dad5ccab40\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5829d35aeb2926b4264a21ddf52dff8e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8c7bc979e14c249a96b1dede595c6b44\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\86ccc6cde32d33a6fc646790d4d6254a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\04b8e65d2cacaa96be87535b34f637eb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9bd06597583cff2f7c14b89a3d4d618d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\20700e6f3d59e6cec3416b1e86cb33ab\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:3:5-42
-		INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:2:1-48:12
-		INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:2:1-48:12
+		INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:2:1-48:12
-		INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:2:1-48:12
+		INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:10:5-66
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:24:5-67
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:10:22-64
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:10:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:11:5-79
+ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:11:22-76
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:11:22-76
 application
-ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:13:5-46:19
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:30:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/sebastian/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a38ba1decce92db02c0f2a5e8b915aec/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/sebastian/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a38ba1decce92db02c0f2a5e8b915aec/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/ae27d66f53bcd4897b7ca27cc338d1b2/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/ae27d66f53bcd4897b7ca27cc338d1b2/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e3b8c235c39be94f26867b445bc6029a/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e3b8c235c39be94f26867b445bc6029a/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f10020b0b079e3f2e394210aa0368fba/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f10020b0b079e3f2e394210aa0368fba/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ac06a5abc3d823737bcff0f651b82f9d/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ac06a5abc3d823737bcff0f651b82f9d/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e5de3ef9e17985c83c42c4b766450383/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e5de3ef9e17985c83c42c4b766450383/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bb95a147455cd81eb4ad1dbcacdc16e1/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bb95a147455cd81eb4ad1dbcacdc16e1/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7e04277e8a85a14b7112e0cf46fdf5fc/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7e04277e8a85a14b7112e0cf46fdf5fc/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/db40742ca432dc82bb0e3e9d7b2bb480/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/db40742ca432dc82bb0e3e9d7b2bb480/AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:13:5-46:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\437f6f7b3a7bb29130329966d5d81da5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\437f6f7b3a7bb29130329966d5d81da5\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\669df88c75f85f3bc5749f9d6aeb086b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\669df88c75f85f3bc5749f9d6aeb086b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:30:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\80248a3ecfbd28f860c2fccacebf57fc\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\80248a3ecfbd28f860c2fccacebf57fc\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\ba9d80d1265ae16a494dea2074e975f3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\ba9d80d1265ae16a494dea2074e975f3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\1b3c715663ef55ebf4e59232d43617ac\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\1b3c715663ef55ebf4e59232d43617ac\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\5d965587ed33e1cb3d91f08451eab7a1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\5d965587ed33e1cb3d91f08451eab7a1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\531fe5ef2c55162699474f19d62fafd3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\531fe5ef2c55162699474f19d62fafd3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\368ff6482c23557102269a2f490b5eab\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\368ff6482c23557102269a2f490b5eab\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\390fc063bd6591f93eabfa3e1de29774\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\390fc063bd6591f93eabfa3e1de29774\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\db5d652e336acddcc518cdff49529c5b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\db5d652e336acddcc518cdff49529c5b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\34961fc0a9a709d3ffe54e3feab5f6b2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\34961fc0a9a709d3ffe54e3feab5f6b2\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7e04277e8a85a14b7112e0cf46fdf5fc/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\db5d652e336acddcc518cdff49529c5b\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:16:9-41
 	android:roundIcon
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:19:9-40
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:19:9-40
 uses-library#org.apache.http.legacy
-ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:29:9-31:40
+ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:required
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:31:13-37
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:30:13-50
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:30:13-50
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:33:9-35:55
+ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:33:9-35:55
 	android:value
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:35:13-52
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:35:13-52
 	android:name
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:34:13-58
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:34:13-58
 activity#unal.edu.co.geolocalizacion.MapsActivity
-ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:37:9-45:20
+ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:37:9-45:20
 	android:label
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:39:13-56
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:39:13-56
 	android:name
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:38:13-41
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:38:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:40:13-44:29
+ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:41:17-69
+ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:41:25-66
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:43:17-77
+ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml:43:27-74
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml:43:27-74
 uses-sdk
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/58d3f07d510b0f953f026ca5739dff12/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/58d3f07d510b0f953f026ca5739dff12/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/sebastian/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a38ba1decce92db02c0f2a5e8b915aec/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/sebastian/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a38ba1decce92db02c0f2a5e8b915aec/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.volley:volley:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/ae27d66f53bcd4897b7ca27cc338d1b2/AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/ae27d66f53bcd4897b7ca27cc338d1b2/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2826a825e041d5928a131432cd837fc2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2826a825e041d5928a131432cd837fc2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c7803f78085d96e3401548ede691ae45/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c7803f78085d96e3401548ede691ae45/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e3b8c235c39be94f26867b445bc6029a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e3b8c235c39be94f26867b445bc6029a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f10020b0b079e3f2e394210aa0368fba/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f10020b0b079e3f2e394210aa0368fba/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ac06a5abc3d823737bcff0f651b82f9d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ac06a5abc3d823737bcff0f651b82f9d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e5de3ef9e17985c83c42c4b766450383/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e5de3ef9e17985c83c42c4b766450383/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bb95a147455cd81eb4ad1dbcacdc16e1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bb95a147455cd81eb4ad1dbcacdc16e1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fa38307598e1bf8398c60259a8292144/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fa38307598e1bf8398c60259a8292144/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/8ee41c285ead5980a711e49e90d0262f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/8ee41c285ead5980a711e49e90d0262f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/162e9c091c244cd7e84785278ca3476f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/162e9c091c244cd7e84785278ca3476f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e37cbbe314329bcc61e9e43dec661433/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e37cbbe314329bcc61e9e43dec661433/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/355f45542e28b0fee858b23bd1b9d396/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/355f45542e28b0fee858b23bd1b9d396/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d41bbbcafee00aa4a1874a2f0b34219c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d41bbbcafee00aa4a1874a2f0b34219c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e2d00f11eed81d220b80c2b5a5fdff77/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e2d00f11eed81d220b80c2b5a5fdff77/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/94f08576fc769f91e1f45b7cedee2da6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/94f08576fc769f91e1f45b7cedee2da6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/77b255264467c2139d95df1c27d70031/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/77b255264467c2139d95df1c27d70031/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/55cdebb6021d55135ae201b39c583f47/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/55cdebb6021d55135ae201b39c583f47/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f3c97311ad4a7e40a16f0fffd1a8a0c6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f3c97311ad4a7e40a16f0fffd1a8a0c6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7e04277e8a85a14b7112e0cf46fdf5fc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7e04277e8a85a14b7112e0cf46fdf5fc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/db40742ca432dc82bb0e3e9d7b2bb480/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/db40742ca432dc82bb0e3e9d7b2bb480/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d284a725b3ca9784b15b18ce4e518488/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d284a725b3ca9784b15b18ce4e518488/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7c4a59a335bb5fedb3b21b4765cad145/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7c4a59a335bb5fedb3b21b4765cad145/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/fc445df49f593d60b94667cd1cab45fe/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/fc445df49f593d60b94667cd1cab45fe/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fc134c4a4f2e216a3f44051f3cdd248b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fc134c4a4f2e216a3f44051f3cdd248b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3f0a080b526af53101ea2ca03837a8dc/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3f0a080b526af53101ea2ca03837a8dc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e5610a6be9677adb19200b9e6fa89705/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e5610a6be9677adb19200b9e6fa89705/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/eafd188b18871a0b3d40089f48f066fe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/eafd188b18871a0b3d40089f48f066fe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3e3a861323f22673a8f0c49ccb986dbd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3e3a861323f22673a8f0c49ccb986dbd/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ced1a0eff46193051e7236cb9dfdd309/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ced1a0eff46193051e7236cb9dfdd309/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d8124d5a41eef7df6b7b94feaff9ae9c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d8124d5a41eef7df6b7b94feaff9ae9c/AndroidManifest.xml:20:5-44
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
-INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\cb875857604a721d0c4967af92283b3b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\cb875857604a721d0c4967af92283b3b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\437f6f7b3a7bb29130329966d5d81da5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\437f6f7b3a7bb29130329966d5d81da5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\669df88c75f85f3bc5749f9d6aeb086b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\669df88c75f85f3bc5749f9d6aeb086b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\80248a3ecfbd28f860c2fccacebf57fc\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\80248a3ecfbd28f860c2fccacebf57fc\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\f585f9713f127312fba52c48ca3848aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\f585f9713f127312fba52c48ca3848aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1e39e971e550d82fbc7ce06fc988f116\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1e39e971e550d82fbc7ce06fc988f116\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\ba9d80d1265ae16a494dea2074e975f3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\ba9d80d1265ae16a494dea2074e975f3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\1b3c715663ef55ebf4e59232d43617ac\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\1b3c715663ef55ebf4e59232d43617ac\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\5d965587ed33e1cb3d91f08451eab7a1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\5d965587ed33e1cb3d91f08451eab7a1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\531fe5ef2c55162699474f19d62fafd3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\531fe5ef2c55162699474f19d62fafd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\368ff6482c23557102269a2f490b5eab\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\368ff6482c23557102269a2f490b5eab\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\390fc063bd6591f93eabfa3e1de29774\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\390fc063bd6591f93eabfa3e1de29774\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\78b6b8460f21c624eaf1476e3a8f8c00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\78b6b8460f21c624eaf1476e3a8f8c00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d28bb7e099c6976311c60afe975fcb19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d28bb7e099c6976311c60afe975fcb19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\732b98beb8c80f6df6bdfe50c68d5be0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\732b98beb8c80f6df6bdfe50c68d5be0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\af628d2ebd9c3d596772179240461071\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\af628d2ebd9c3d596772179240461071\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\d617d6fbaa0256a65faf2380e1fbe324\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\d617d6fbaa0256a65faf2380e1fbe324\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\cdbd162c70207103744b4d1eafde99b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\cdbd162c70207103744b4d1eafde99b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\b49f753f59389d5137c63dfd774198f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\b49f753f59389d5137c63dfd774198f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ca122f0f856fabe4e2d081173db3a146\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ca122f0f856fabe4e2d081173db3a146\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\12665575a63bc6f0e6cce397a4fae6e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\12665575a63bc6f0e6cce397a4fae6e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\63552112cabfecf7d6bbc4e0ff4c41d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\63552112cabfecf7d6bbc4e0ff4c41d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\24029aa4168a2e17aefd60629f12a33d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\24029aa4168a2e17aefd60629f12a33d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\db5d652e336acddcc518cdff49529c5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\db5d652e336acddcc518cdff49529c5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\34961fc0a9a709d3ffe54e3feab5f6b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\34961fc0a9a709d3ffe54e3feab5f6b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\87c7a322752feb03c04570b4a7011ee8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\87c7a322752feb03c04570b4a7011ee8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\92907b3fb05bdb860bc5edc3fd280195\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\92907b3fb05bdb860bc5edc3fd280195\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\7664577441850bc600494b6e38660eee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\7664577441850bc600494b6e38660eee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f5947a7d3589bd92136506dad5ccab40\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f5947a7d3589bd92136506dad5ccab40\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5829d35aeb2926b4264a21ddf52dff8e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5829d35aeb2926b4264a21ddf52dff8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8c7bc979e14c249a96b1dede595c6b44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8c7bc979e14c249a96b1dede595c6b44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\86ccc6cde32d33a6fc646790d4d6254a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\86ccc6cde32d33a6fc646790d4d6254a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\04b8e65d2cacaa96be87535b34f637eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\04b8e65d2cacaa96be87535b34f637eb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9bd06597583cff2f7c14b89a3d4d618d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9bd06597583cff2f7c14b89a3d4d618d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\20700e6f3d59e6cec3416b1e86cb33ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\20700e6f3d59e6cec3416b1e86cb33ab\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e5de3ef9e17985c83c42c4b766450383/AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\368ff6482c23557102269a2f490b5eab\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
-		ADDED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sebastian/Documentos/MovilesUnal201902/Reto9/Geolocalizacion/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TAURET\AndroidStudioProjects\Movilesunal20202\9.GPS\Geolocalizacion\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:23:5-79
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:23:22-76
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:24:22-64
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fe828f2444eaa0d1c8ce30295f5a1e5e/AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\7e2401f2155b3e4bc096b0aa70f907e0\AndroidManifest.xml:28:9-32
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e3b8c235c39be94f26867b445bc6029a/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\1b3c715663ef55ebf4e59232d43617ac\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e3b8c235c39be94f26867b445bc6029a/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\1b3c715663ef55ebf4e59232d43617ac\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e3b8c235c39be94f26867b445bc6029a/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\1b3c715663ef55ebf4e59232d43617ac\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e3b8c235c39be94f26867b445bc6029a/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\1b3c715663ef55ebf4e59232d43617ac\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ac06a5abc3d823737bcff0f651b82f9d/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\531fe5ef2c55162699474f19d62fafd3\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ac06a5abc3d823737bcff0f651b82f9d/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\531fe5ef2c55162699474f19d62fafd3\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/sebastian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ac06a5abc3d823737bcff0f651b82f9d/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\531fe5ef2c55162699474f19d62fafd3\AndroidManifest.xml:24:13-58
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e5de3ef9e17985c83c42c4b766450383/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bb95a147455cd81eb4ad1dbcacdc16e1/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bb95a147455cd81eb4ad1dbcacdc16e1/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\368ff6482c23557102269a2f490b5eab\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\390fc063bd6591f93eabfa3e1de29774\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\390fc063bd6591f93eabfa3e1de29774\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:support-v4:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e5de3ef9e17985c83c42c4b766450383/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\368ff6482c23557102269a2f490b5eab\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:support-v4:26.1.0] /home/sebastian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e5de3ef9e17985c83c42c4b766450383/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\TAURET\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\368ff6482c23557102269a2f490b5eab\AndroidManifest.xml:27:13-51

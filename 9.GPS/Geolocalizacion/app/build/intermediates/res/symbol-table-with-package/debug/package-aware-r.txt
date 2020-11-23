@@ -410,6 +410,8 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color circleBorder
+color circleFill
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
@@ -434,6 +436,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color hospital
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -446,6 +449,7 @@ color material_grey_600
 color material_grey_800
 color material_grey_850
 color material_grey_900
+color museum
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
@@ -457,6 +461,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color restaurant
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -780,6 +785,7 @@ id groups
 id home
 id homeAsUp
 id hybrid
+id hybrid_map
 id icon
 id icon_group
 id icon_only
@@ -802,6 +808,7 @@ id multiply
 id never
 id none
 id normal
+id normal_map
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -817,6 +824,7 @@ id right
 id right_icon
 id right_side
 id satellite
+id satellite_map
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -831,6 +839,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seekBar
 id select_dialog_listview
 id shortcut
 id showCustom
@@ -853,10 +862,12 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id terrain
+id terrain_map
 id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id time
 id title
 id titleDividerNoCustom
@@ -870,6 +881,12 @@ id wide
 id withText
 id wrap
 id wrap_content
+id zoom_building
+id zoom_city
+id zoom_continent
+id zoom_level
+id zoom_street
+id zoom_world
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
@@ -926,6 +943,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu options_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -986,9 +1004,14 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string google_maps_key
+string hybrid_map
+string normal_map
+string satellite_map
 string search_menu_title
 string status_bar_notification_info_overflow
+string terrain_map
 string title_activity_maps
+string zoom_level
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
