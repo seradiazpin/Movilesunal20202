@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_catalog_menu">
+
+    <fragment
+        android:id="@+id/navigation_catalog_menu"
+        android:name="co.edu.unal.decorar.ui.catalog.CatalogMenuFragment"
+        android:label="@string/title_catalog"
+        tools:layout="@layout/fragment_catalog_menu" >
+        <action
+            android:id="@+id/catalog_menu_to_catalogFragment"
+            app:destination="@id/navigation_catalog"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_open_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="co.edu.unal.decorar.ui.camera.CameraFragment"
+        android:label="@string/title_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/navigation_catalog"
+        android:name="co.edu.unal.decorar.ui.catalog.CatalogFragment"
+        android:label="@string/title_catalog"
+        >
+        <argument
+            android:name="choosed_type"
+            app:argType="integer" />
+        <action
+            android:id="@+id/catalog_to_furnitureFragment"
+            app:destination="@id/furnitureFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/furnitureFragment"
+        android:name="co.edu.unal.decorar.ui.furniture.FurnitureFragment"
+        android:label="FurnitureFragment" >
+        <argument
+            android:name="furnitureID"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>

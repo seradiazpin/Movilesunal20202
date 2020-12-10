@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:background="@drawable/rounded_bg"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:padding="24dp"
+    android:gravity="center"
+    android:clipToPadding="false">
+    <ImageButton
+        android:src="@android:drawable/ic_dialog_info"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:importantForAccessibility="no"
+        android:id="@+id/info_button"/>
+    <TextView
+        android:id="@+id/titleHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/control_name"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:gravity="center_horizontal" />
+
+    <ImageButton
+        android:src="@android:drawable/ic_delete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:importantForAccessibility="no"
+        android:id="@+id/delete_button"/>
+
+</LinearLayout>
